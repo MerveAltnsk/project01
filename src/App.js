@@ -4,11 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      <p className="text-center text-primary display-4">Merhabalar</p>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Hello Merve
         </p>
+
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +22,9 @@ function App() {
         >
           Learn React
         </a>
+
+
+
       </header>
     </div>
   );
