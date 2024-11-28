@@ -1,8 +1,11 @@
 import React from 'react'
+import "../components/style.css";
 
 export default function HeaderFunction(props) {
   return (
     <>
+    {/* start Nav */}
+
    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-dark">
   <div className="container">
     <a className="navbar-brand" href="#">
@@ -66,6 +69,20 @@ export default function HeaderFunction(props) {
     </div>
   </div>
 </nav>
+
+    {/* end Nav */}
+
+    {/* start Header */}
+
+    <header className='backgroundExternal'>
+      <div className='pdiv'>
+        <p className='specialParahraph'>Hello</p>
+      </div>
+    
+    </header>
+
+    {/* end Header */}
+
 
       
     </>

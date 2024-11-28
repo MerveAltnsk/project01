@@ -1,0 +1,39 @@
+.backgroundExternal {
+    background-image: url('../images/GreenNikebasketball.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    font-size: 10rem;
+}
+
+.pdiv {
+    position: relative;
+    display: flex;  /* Flexbox ile içerikleri ortalamak */
+    justify-content: center;  /* Yatayda ortalama */
+    align-items: center;  /* Dikeyde ortalama */
+    height: 100%;  /* Pdiv elemanının yüksekliği tam olarak %100 */
+    width: 100%;  /* Pdiv elemanının genişliği tam olarak %100 */
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pdiv::before {
+    content: '';  /* Yarı şeffaf arka plan */
+    position: absolute;
+    top: 50%;  /* Ortada başlayacak şekilde yerleştirmek için */
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Ortalamak için */
+    width: 60%;  /* Arka planın genişliğini ayarlayalım (örneğin %60) */
+    height: 60%;  /* Arka planın yüksekliğini ayarlayalım (örneğin %60) */
+    background-color: rgba(255, 255, 255, 0.2);  /* Beyaz ve %20 şeffaflık */
+    z-index: 1;  /* Overlay'in altına yazı gelecek */
+}
+
+.specialParahraph {
+    color: rgba(255, 255, 255, 0.901);   
+    margin-top: 2rem;
+    z-index: 2;  /* Yazıyı overlay'in üstünde tutuyoruz */
+    position: relative;  /* Yazıyı görünür kılmak için */
+}

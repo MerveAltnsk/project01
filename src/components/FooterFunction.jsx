@@ -17,7 +17,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-facebook-f" />
+        Facebook
       </a>
+
+
       {/* Twitter */}
       <a
         data-mdb-ripple-init=""
@@ -27,7 +30,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-twitter" />
+        Twitter
       </a>
+
+
       {/* Google */}
       <a
         data-mdb-ripple-init=""
@@ -37,7 +43,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-google" />
+        Google
       </a>
+
+
       {/* Instagram */}
       <a
         data-mdb-ripple-init=""
@@ -47,7 +56,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-instagram" />
+        Instagram
       </a>
+
+
       {/* Linkedin */}
       <a
         data-mdb-ripple-init=""
@@ -57,7 +69,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-linkedin-in" />
+        Linkedin
       </a>
+
+
       {/* Github */}
       <a
         data-mdb-ripple-init=""
@@ -67,7 +82,10 @@ export default function FooterFunction() {
         role="button"
       >
         <i className="fab fa-github" />
+        Github
       </a>
+
+      
     </section>
     {/* Section: Social media */}
   </div>
