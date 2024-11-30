@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/style.css";
+import { Link } from 'react-router-dom';
 
 export default function HeaderFunction(props) {
   return (
@@ -65,6 +66,10 @@ export default function HeaderFunction(props) {
         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
           Search
         </button>
+
+        <Link to = "/login" className='ms-2 btn btn-success'>Login</Link>
+
+
       </form>
     </div>
   </div>
